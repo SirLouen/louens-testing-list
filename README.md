@@ -14,10 +14,10 @@ If you want your patch to be in this list, please PM at [Slack](https://make.wor
 ## Trac Report List 
 
 - [#63316](https://core.trac.wordpress.org/ticket/63316)
-- [#63135](https://core.trac.wordpress.org/ticket/)
+- [#63135](https://core.trac.wordpress.org/ticket/63135)
 - [#18836](https://core.trac.wordpress.org/ticket/18836)
 - [#61941](https://core.trac.wordpress.org/ticket/61941)
-- [#42910](https://core.trac.wordpress.org/ticket/42910#comment:8)
+- [#42910](https://core.trac.wordpress.org/ticket/42910)
 
 ## Additional Notes
 
