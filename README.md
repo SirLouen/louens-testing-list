@@ -18,6 +18,7 @@ If you want your patch to be in this list, please PM at [Slack](https://make.wor
 - [#18836](https://core.trac.wordpress.org/ticket/18836)
 - [#61941](https://core.trac.wordpress.org/ticket/61941)
 - [#42910](https://core.trac.wordpress.org/ticket/42910)
+- [#58902](https://core.trac.wordpress.org/ticket/58902)
 
 ## Additional Notes
 
