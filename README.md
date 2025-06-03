@@ -11,10 +11,9 @@ To be in this list I'm taking into account some requirements:
 The idea of this List is to provide extra testing reports to confirm and trim the hassle of Core Reviewers of having to personally test patches that can potentially be wrong and focus straight on those that are more likely to be ready to be shipped ASAP.
 
 If you want your patch to be in this list, please PM at [Slack](https://make.wordpress.org/chat/) @ SirLouen
-## Trac Report List 
+## Trac Report List
 
 - [#63316](https://core.trac.wordpress.org/ticket/63316)
-- [#18836](https://core.trac.wordpress.org/ticket/18836)
 - [#61941](https://core.trac.wordpress.org/ticket/61941)
 - [#42910](https://core.trac.wordpress.org/ticket/42910)
 - [#58902](https://core.trac.wordpress.org/ticket/58902)
@@ -22,7 +21,6 @@ If you want your patch to be in this list, please PM at [Slack](https://make.wor
 - [#63443](https://core.trac.wordpress.org/ticket/63443)
 - [#54582](https://core.trac.wordpress.org/ticket/54582)
 - [#47101](https://core.trac.wordpress.org/ticket/47101)
-- [#40415](https://core.trac.wordpress.org/ticket/40415)
 - [#22239](https://core.trac.wordpress.org/ticket/22239)
 - [#32295](https://core.trac.wordpress.org/ticket/32295)
 - [#53158](https://core.trac.wordpress.org/ticket/53158)
