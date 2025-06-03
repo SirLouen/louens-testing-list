@@ -24,6 +24,7 @@ If you want your patch to be in this list, please PM at [Slack](https://make.wor
 - [#22239](https://core.trac.wordpress.org/ticket/22239)
 - [#32295](https://core.trac.wordpress.org/ticket/32295)
 - [#53158](https://core.trac.wordpress.org/ticket/53158)
+- [#53355](https://core.trac.wordpress.org/ticket/53355)
 
 ## Additional Notes
 
