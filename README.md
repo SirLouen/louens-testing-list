@@ -13,20 +13,7 @@ The idea of this List is to provide extra testing reports to confirm and trim th
 If you want your patch to be in this list, please PM at [Slack](https://make.wordpress.org/chat/) @ SirLouen
 ## Trac Report List
 
-- [#63316](https://core.trac.wordpress.org/ticket/63316)
-- [#61941](https://core.trac.wordpress.org/ticket/61941)
-- [#42910](https://core.trac.wordpress.org/ticket/42910)
-- [#58902](https://core.trac.wordpress.org/ticket/58902)
-- [#58763](https://core.trac.wordpress.org/ticket/58763)
-- [#63443](https://core.trac.wordpress.org/ticket/63443)
-- [#54582](https://core.trac.wordpress.org/ticket/54582)
-- [#47101](https://core.trac.wordpress.org/ticket/47101)
-- [#22239](https://core.trac.wordpress.org/ticket/22239)
-- [#32295](https://core.trac.wordpress.org/ticket/32295)
-- [#53158](https://core.trac.wordpress.org/ticket/53158)
-- [#53355](https://core.trac.wordpress.org/ticket/53355)
-- [#45493](https://core.trac.wordpress.org/ticket/45493)
-- [#63532](https://core.trac.wordpress.org/ticket/63532)
+[Here is the new updated list ](https://github.com/users/SirLouen/projects/2/views/2)
 
 ## Additional Notes
 
