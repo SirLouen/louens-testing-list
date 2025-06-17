@@ -18,7 +18,3 @@ If you want your patch to be in this list, please PM at [Slack](https://make.wor
 ## Additional Notes
 
 In the future I will also be adding a list [Gutenberg Repo](https://github.com/WordPress/gutenberg/) reports
-
-## Changelog
-
-- 2025/05/09 - Initial List
