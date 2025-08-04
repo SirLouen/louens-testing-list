@@ -10,13 +10,18 @@ jobs:
   notify:
     if: ${{ github.event.label.name == 'needs-sth' }}
     runs-on: ubuntu-latest
+    permissions: {}
     steps:
       - name: Send Slack Notification
-        uses: slackapi/slack-github-action@v2.1.1
+        uses: slackapi/slack-github-action@91efab103c0de0a537f72a35f6b8cda0ee76bf0a
+        env:
+          REPORT_HEADING: "*Gutenberg ${{ github.event_name == 'issues' && 'Issue' || 'Pull Request' }} Needs Testing*"
+          REPORT_TITLE: ${{ toJSON(github.event_name == 'issues' && github.event.issue.title || github.event.pull_request.title) }}
+          REPORT_URL: ${{ github.event_name == 'issues' && github.event.issue.html_url || github.event.pull_request.html_url }}
         with:
           webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
           webhook-type: incoming-webhook
           payload: |
             {
-              "text": "*Needs Testing*: ${{ github.event_name == 'issues' && github.event.issue.title || github.event.pull_request.title }} in ${{ github.repository }}.\n*Link*: ${{ github.event_name == 'issues' && github.event.issue.html_url || github.event.pull_request.html_url }}"
+              "text": "${{ env.REPORT_HEADING }}: ${{ fromJSON(env.REPORT_TITLE) }} in ${{ github.repository }}.\n*Link*: ${{ env.REPORT_URL }}"
             }
