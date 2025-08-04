@@ -16,7 +16,7 @@ jobs:
         with:
           payload: |
             {
-              "text": "**Needs Testing**: ${{ github.event_name == 'issues' && github.event.issue.title || github.event.pull_request.title }} in ${{ github.repository }}.\n**Link**: ${{ github.event_name == 'issues' && github.event.issue.html_url || github.event.pull_request.html_url }}"
+              "text": "*Needs Testing*: ${{ github.event_name == 'issues' && github.event.issue.title || github.event.pull_request.title }} in ${{ github.repository }}.\n*Link*: ${{ github.event_name == 'issues' && github.event.issue.html_url || github.event.pull_request.html_url }}"
             }
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
