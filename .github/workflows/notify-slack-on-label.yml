@@ -8,7 +8,7 @@ on:
 
 jobs:
   notify:
-    if: ${{ github.event.label.name == 'needs-sth' }}
+    if: false
     runs-on: ubuntu-latest
     permissions: {}
     steps:
