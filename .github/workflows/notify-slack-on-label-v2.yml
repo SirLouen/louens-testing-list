@@ -1,4 +1,4 @@
-name: Notify Slack on Needs Testing Label
+name: Notify Slack on Needs Testing Label V2
 
 on:
   issues:
